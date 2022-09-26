@@ -7,6 +7,15 @@ import React from 'react' // always import in anyomponent
 //     return <h1>Hello Debojyoti</h1>
 // }
 
-const Greet = () => <h1>Hello Debojyoti Again</h1>
+const Greet = props => {
+    return(
+        <div>
+            <h1>
+                Hello {props.name} a.k.a {props.heroName}
+            </h1>
+            {props.children}
+        </div>
+    )
+} 
 
 export default Greet
