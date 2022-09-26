@@ -9,7 +9,7 @@ class Counter extends Component {
     }
 
     incrementOne(){
-        // React bundles all the same method call into one call
+        
         // this.setState({
         //     count: this.state.count + 1
         // }, ()=>{console.log(this.state.count)})
